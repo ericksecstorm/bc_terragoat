@@ -1,4 +1,4 @@
-resource "aws_security_group" "allow_tls" {
+resource "aws_security_group" "allow_tls02" {
   name        = "allow_tls"
   description = "Allow TLS inbound traffic"
   vpc_id      = "vpc-0836920addb48c690"
